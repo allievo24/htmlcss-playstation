@@ -1,0 +1,31 @@
+
+
+
+
+
+
+
+
+#menu{
+    background-color: aqua;
+    min-height: 200px;
+}
+
+.container{
+    border: 7px dotted rgb(184, 14, 14);
+}
+
+.col{
+    border: 2px dotted black;
+  
+}
+
+
+.Cc_btn{
+ border-radius: 1.375rem;
+
+}
+.menu_bottom{
+ border: 3px solid black;
+ min-height: 70px;
+}
