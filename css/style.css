@@ -4,7 +4,13 @@
 
 
 
+.box{
 
+height: 100px;
+
+background-color: blueviolet;
+
+}
 
 #menu{
     background-color: aqua;
