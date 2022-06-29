@@ -41,6 +41,21 @@
     width: 50px;
 }
 
+
+#contatti ul li .nav-item{
+    color: white;
+}
+
+.map-mondo{
+    height: 15px;
+}
+
+.Region{
+    font-size: 10px;
+    display: inline-block;
+}
+
+
 /*******regole custom******/ 
 
 
