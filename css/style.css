@@ -93,14 +93,13 @@
 
 
 
-/*
-.jambo_img{
-    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+
+#jambo{
+    background-image: url('../img/jumbo-bg.png');
     background-size: cover;
     background-position: center;
-    height: 100px;
-    
-}*/
+    height:550px;
+}
 
 
 
