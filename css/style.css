@@ -36,10 +36,6 @@
 }
 
 
-#sie-logo{
-    height: 50px;
-    width: 50px;
-}
 
 
 #contatti ul li .nav-item{
@@ -66,12 +62,30 @@
 
 /******regole di hover******/
 
-#menu  .active{
+#menu .active:hover{
     outline: solid 2px blue;
     outline-offset: 5px;
-    
+}
+
+#menu img{
+    transition: width 2s, height 2s, transform 2s;
 
 
+}
+
+
+
+
+#menu .active:hover{
+    transform: rotate(360deg);
+  
+}
+
+
+
+
+.btn:hover{
+    outline: solid 2px blue; 
 }
 
 
