@@ -54,7 +54,9 @@
     font-size: 10px;
     display: inline-block;
 }
-
+#jambo_bottom{
+    background-color: var(--nuove_uscite_bg_color);
+}
 
 /*******regole custom******/ 
 
