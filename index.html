@@ -36,15 +36,19 @@
 
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav">
-
-                                <li class="nav-item dropdown">
+                                
+                                <!--bonus non perfetto estato ottenuto aggiungendo w-100 al tag <li> che contiene la classe nav-item dropdown
+                                    e text center per centrere gli elementi al suo interno da notare che la classe w-100 e attacata al altra classe
+                                    se mettiamo lo spazio il comportamento sparisce-->
+                                
+                                    <li class="nav-item dropdownw-100">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                         role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Giochi
                                     </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
+                                        <li><a class="dropdown-item pt-5 " href="#"><img src="img/play-menu-ico.png" alt="logo"/></a></li>
+                                        <li><a class="dropdown-item pb-5 fs-5" href="#">Playstation 5</a></li>
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </li>
@@ -55,7 +59,7 @@
                                         Hardware
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#"><img src="img/play-menu-ico.png" alt="logo"/></a></li>
                                         <li><a class="dropdown-item" href="#">Another action</a></li>
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
@@ -67,7 +71,7 @@
                                         Servizi
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#"><img src="img/play-menu-ico.png" alt="logo"/></a></li>
                                         <li><a class="dropdown-item" href="#">Another action</a></li>
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
@@ -79,7 +83,7 @@
                                         Novità
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#"><img src="img/play-menu-ico.png" alt="logo"/></a></li>
                                         <li><a class="dropdown-item" href="#">Another action</a></li>
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
@@ -92,27 +96,27 @@
                                         Fai acquisti
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#"><img src="img/play-menu-ico.png" alt="logo"/></a></li>
                                         <li><a class="dropdown-item" href="#">Another action</a></li>
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </li>
 
-                                <li class="nav-item dropdown">
+                                <li class="nav-item dropdownw-100 m-auto">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink"
                                         role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         Supporto
                                     </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink ">
+                                        <li><a class="dropdown-item " href="#"><img src="img/play-menu-ico.png" alt="logo"/></a></li>
                                         <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else he</a></li>
                                     </ul>
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="right d-flex justify-content-between ">
+                    <div class="right d-flex">
 
                         <ul class="navbar-nav  collapse mb-2 mb-lg-0">
                             <li class="nav-item dropdown">
@@ -121,7 +125,7 @@
                                     My PLayStation
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#"><img src="img/play-menu-ico.png" alt="logo"/></a></li>
                                     <li><a class="dropdown-item" href="#">Another action</a></li>
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
@@ -205,7 +209,7 @@
         <!--Inizio Menu -->
         <section id="pub">
             <div class="container">
-                <div class="row row-cols-sm-1 row-cols-md-2 align-items-center ">
+                <div class="row row-cols-sm-1 row-cols-md-2 ">
                     <div class="col card">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
@@ -260,102 +264,138 @@
         <!--Inizio Jambo_2-->
         <section id="jambo_bottom">
 
-            <div class=" container-fluid jambo_img position-relative">
-                <img class=" w-100" src="img/it-takes-two-hero-banner-desktop.jpg" alt="">
-                <img class=" w-25 p-5 ms-4 position-absolute top-0 start-0" src="img/it-takes-two-logo.png" alt="">
+                    <!-- <section id="jambo_bottom">
 
-                <div class="  jambo_text position-absolute top-50 ms-5  ">
+                        <div class=" container-fluid jambo_img position-relative">
+                            <img class=" w-100" src="img/it-takes-two-hero-banner-desktop.jpg" alt="">
+                            <img class=" w-25 p-5 ms-4 position-absolute top-0 start-0" src="img/it-takes-two-logo.png" alt="">
+
+                            <div class="  jambo_text position-absolute top-50 ms-5  ">
+                                <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+                                <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the
+                                    one in previous versions of Bootstrap. </p>
+                                <button class="btn btn-danger btn-lg rounded-pill" type="button">Example button</button>
+                            </div>
+
+                        </div>
+                    </section>-->
+
+
+            <div class="container h-100 position-relative">
+                <img class=" w-25 pt-5 p-4 ms-5 position-absolute top-0 start-0" src="img/it-takes-two-logo.png" alt="">
+
+                <div class="jambo_text position-absolute top-50 ms-5 text-white  ">
                     <h1 class="display-5 fw-bold">Custom jumbotron</h1>
                     <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the
                         one in previous versions of Bootstrap. </p>
                     <button class="btn btn-danger btn-lg rounded-pill" type="button">Example button</button>
                 </div>
-
             </div>
         </section>
+
+
+
+
+
+
+
+        
+
+
         <!--Fine Jambo_2-->
 
         <!--Inizio nuove uscite-->
-        <section id="nuove-uscite" class="mb-4">
-            <div class="container-fluid">
-                <div class="row py-3 px-4 text-white">
-                    <div class="col">
-                        <h5>Nuove Uscite</h5>
-                    </div>
-                    <p>Giochi incredibili per PS4 e PS5 disponibili ora</p>
+        <section id="nuove-uscite">
+
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-6 g-3 py-3 px-4 ">
+
+                <div class="col">
+                    <img class="w-100 rounded-4" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="hawaks" />
+                    <p class="text-white">Tony Hawks &#8482;Pro Skater &#8482; 1 + 2 </p>
+                </div>
+                <div class="col">
+                    <img class="w-100 rounded-4" src="img/crash-bandicoot-4-its-about-time-store-art.jpg"
+                        alt="bandicoot" />
+                    <p class="text-white">Crash-Bandicoot 4:It's About Time</p>
+                </div>
+                <div class="col">
+                    <img class="w-100 rounded-4" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="hawaks" />
+                    <p class="text-white">Tony Hawks &#8482;Pro Skater &#8482; 1 + 2 </p>
+
+                </div>
+                <div class="col">
+                    <img class="w-100 rounded-4" src="img/crash-bandicoot-4-its-about-time-store-art.jpg"
+                        alt="bandicoot" />
+                    <p class="text-white">Crash-Bandicoot 4:It's About Time</p>
+
+                </div>
+                <div class="col">
+                    <img class="w-100 rounded-4" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="hawaks" />
+                    <p class="text-white">Tony Hawks &#8482;Pro Skater &#8482; 1 + 2 </p>
+
+                </div>
+                <div class="col">
+                    <img class="w-100 rounded-4" src="img/crash-bandicoot-4-its-about-time-store-art.jpg"
+                        alt="bandicoot" />
+                    <p class="text-white">Crash-Bandicoot 4:It's About Time</p>
+
                 </div>
 
+                <div class="col">
+                    <img class="w-100 rounded-4" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="hawaks" />
+                    <p class="text-white">Tony Hawks &#8482;Pro Skater &#8482; 1 + 2 </p>
 
-
-
-
-                <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-xl-6 g-3 py-3 px-4 ">
-
-                    <div class="col">
-                        <img class="w-100 rounded-4" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="hawaks" />
-                        <p class="text-white">Tony Hawks &#8482;Pro Skater &#8482; 1 + 2 </p>
-                    </div>
-                    <div class="col">
-                        <img class="w-100 rounded-4" src="img/crash-bandicoot-4-its-about-time-store-art.jpg"
-                            alt="bandicoot" />
-                        <p class="text-white">Crash-Bandicoot 4:It's About Time</p>
-                    </div>
-                    <div class="col">
-                        <img class="w-100 rounded-4" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="hawaks" />
-                    </div>
-                    <div class="col">
-                        <img class="w-100 rounded-4" src="img/crash-bandicoot-4-its-about-time-store-art.jpg"
-                            alt="bandicoot" />
-                    </div>
-                    <div class="col">
-                        <img class="w-100 rounded-4" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="hawaks" />
-                    </div>
-                    <div class="col">
-                        <img class="w-100 rounded-4" src="img/crash-bandicoot-4-its-about-time-store-art.jpg"
-                            alt="bandicoot" />
-                    </div>
-
-                    <div class="col">
-                        <img class="w-100 rounded-4" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="hawaks" />
-                    </div>
-                    <div class="col">
-                        <img class="w-100 rounded-4" src="img/crash-bandicoot-4-its-about-time-store-art.jpg"
-                            alt="bandicoot" />
-                    </div>
-                    <div class="col">
-                        <img class="w-100 rounded-4" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="hawaks" />
-                    </div>
-                    <div class="col">
-                        <img class="w-100 rounded-4" src="img/crash-bandicoot-4-its-about-time-store-art.jpg"
-                            alt="bandicoot" />
-                    </div>
-                    <div class="col">
-                        <img class="w-100 rounded-4" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="hawaks" />
-                    </div>
-                    <div class="col">
-                        <img class="w-100 rounded-4" src="img/crash-bandicoot-4-its-about-time-store-art.jpg"
-                            alt="bandicoot" />
-                    </div>
+                </div>
+                <div class="col">
+                    <img class="w-100 rounded-4" src="img/crash-bandicoot-4-its-about-time-store-art.jpg"
+                        alt="bandicoot" />
+                    <p class="text-white">Crash-Bandicoot 4:It's About Time</p>
 
 
                 </div>
+                <div class="col">
+                    <img class="w-100 rounded-4" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="hawaks" />
+                    <p class="text-white">Tony Hawks &#8482;Pro Skater &#8482; 1 + 2 </p>
+
+                </div>
+                <div class="col">
+                    <img class="w-100 rounded-4" src="img/crash-bandicoot-4-its-about-time-store-art.jpg"
+                        alt="bandicoot" />
+                </div>
+                <div class="col">
+                    <img class="w-100 rounded-4" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="hawaks" />
+                    <p class="text-white">Tony Hawks &#8482;Pro Skater &#8482; 1 + 2 </p>
+
+                </div>
+                <div class="col">
+                    <img class="w-100 rounded-4" src="img/crash-bandicoot-4-its-about-time-store-art.jpg"
+                        alt="bandicoot" />
+                    <p class="text-white">Crash-Bandicoot 4:It's About Time</p>
+
+                </div>
+
+
+            </div>
             </div>
         </section>
         <!--Fine nuove uscite-->
 
 
         <!--inizio sezione esplora PS4-->
+        <!--ce un problema da risolvere in questa sezione alla vista mobile le card non si allignano al centrolasciando uno spazio  a destra
+            justify-content-center sulla row  non funziona-->
 
-        <section id="esplora-playstation ">
+
+        <section id="esplora-playstation">
             <div class="container">
-                <div class="  menu_PS4 m-auto text-center ">
+                <div class="menu_PS4 m-auto text-center ">
                     <h1>Ecco la PlayStation 5</h1>
                     <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam unde et temporibus
                         officiis, natus quas labore eveniet?</p>
 
                 </div>
-                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3">
-                    <div class="col">
+                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-3 row-cols-lg-3 m-auto">
+                    <div class="col justify-content-center">
                         <div class="card" style="width: 18rem;">
                             <img src="img/ps4-slim-homepage-image-block.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -372,7 +412,8 @@
                             <img src="img/double11-202010-tw-psvr.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Playstation 4</h5>
-                                <p class="card-text">Giochi incridibili live su PS4 con 1TB di spazio di archiviazione.
+                                <p class="card-text">
+                                    Giochi incridibili live su PS4 con 1TB di spazio di archiviazione.
                                 </p>
                                 <a href="#" class="btn btn-primary rounded-pill">Scopri di più</a>
                             </div>
@@ -411,7 +452,9 @@
                         <img class="w-75" src="img/ps-plus-logo.png" alt="logo plus" />
                         <p class="">Using a series of utilities, you can create this jumbotron, just like the
                             one in previous versions of Bootstrap. </p>
-                        <button class="btn btn-primary btn-lg rounded-pill mb-5" type="button">Example button</button>
+
+                        <button class="btn btn-light btn-lg rounded-pill mb-5 text-primary" type="button">Explora
+                            Playstaiont now</button>
                     </div>
 
                 </div>
@@ -476,8 +519,9 @@
 
                             <p>Using a series of utilities, you can create this jumbotron, just like the
                                 one in previous versions of Bootstrap. </p>
-                            <button class="btn btn-primary btn-lg rounded-pill mb-5" type="button">Example
-                                button</button>
+                            <button class="btn btn-light btn-lg rounded-pill mb-5" type="button">
+                                Explora Playstaiont now
+                            </button>
                         </div>
 
                     </div>
@@ -497,19 +541,19 @@
         <section id="soscial">
             <div class="container-md">
                 <h5 class="text-center pt-5">Seguici sui soscial media</h5>
-                <div class="row row-cols-2  row-cols-md-4 text-center p-5">
+                <div class="row row-cols-2  row-cols-md-4 text-center p-5 g-3">
                     <div class="col">
-                        <img class="w-50" src="img/twitter.jpg" alt="">
+                        <img class="w-50 ms-5 " src="img/twitter.jpg" alt="">
                     </div>
                     <div class="col">
-                        <img class="w-50" src="img/facebook.jpg" alt="">
+                        <img class="w-50 me-5" src="img/facebook.jpg" alt="">
                     </div>
                     <div class="col">
-                        <img class="w-50" src="img/instagram.jpg" alt="">
+                        <img class="w-50 ms-5" src="img/instagram.jpg" alt="">
 
                     </div>
                     <div class="col">
-                        <img class="w-50" src="img/youtube.png" alt="">
+                        <img class="w-50 me-5" src="img/youtube.png" alt="">
                     </div>
 
                 </div>
@@ -561,17 +605,17 @@
                 </div>
 
                 <div class="col mb-3">
-                <!-- col vuota usata per spaziare le ul dall img-footer-->    
+                    <!-- col vuota usata per spaziare le ul dall img-footer-->
                 </div>
 
                 <div class="col mb-3 text-white">
                     <h5>Section</h5>
                     <ul class="nav flex-column">
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
-                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
                     </ul>
                 </div>
 
@@ -603,7 +647,9 @@
                     <div class="col-7 w-50">
                         <img class="w-25" src="img/sie-logo.svg" alt="sie logo" />
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque neque aliquam omnis quod
-                            officiis eveniet dolorem? Aut eveniet sequi Lorem ipsum dolor sitamet consectetur adipisicing elit. Fuga quam voluptate recusandae animi iusto illo, odio veniam ad ratione optio quas eius. </p>
+                            officiis eveniet dolorem? Aut eveniet sequi Lorem ipsum dolor sitamet consectetur
+                            adipisicing elit. Fuga quam voluptate recusandae animi iusto illo, odio veniam ad ratione
+                            optio quas eius. </p>
                     </div>
 
                 </div>

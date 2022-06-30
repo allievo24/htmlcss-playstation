@@ -35,11 +35,13 @@
     margin: 2rem 0;
 }
 
-
-
-
-#contatti ul li .nav-item{
+#contatti ul li{
     color: white;
+}
+
+
+#contatti .nav .nav-item{
+   color: white;
 }
 
 .map-mondo{
@@ -52,6 +54,10 @@
 }
 #jambo_bottom{
     background-color: var(--nuove_uscite_bg_color);
+}
+
+.dropdown-menu{
+    width: 70%;
 }
 
 /*******regole custom******/ 
@@ -102,6 +108,12 @@
 
 
 
+#jambo_bottom{
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    background-size: cover;
+    background-position: center;
+    height:550px;
+}
 
 
 
